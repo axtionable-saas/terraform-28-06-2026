@@ -1,0 +1,17 @@
+#1 Initialize Terraform
+CMD - terraform init
+
+# 2Plan for terraform codes
+CMD - terraform plan
+
+CMD - terraform plan -var-file=terraform.tfvars
+
+#3 Apply your terraform codes
+CMD - terraform apply
+
+CMD - terraform apply -var-file=terraform.tfvars
+
+#4 Destroy your infrastructure
+CMD - terraform destroy
+
+CMD - terraform destroy -var-file=terraform.tfvars
